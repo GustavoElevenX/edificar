@@ -4,6 +4,10 @@ export function createRouteSupabaseClient(accessToken?: string) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
 
+  if (!supabaseUrl || !supabaseAnonKey) {
+    throw new Error("Autenticação não configurada.");
+  }
+
   return createClient(supabaseUrl, supabaseAnonKey, {
     global: accessToken
       ? {
@@ -18,4 +22,3 @@ export function createRouteSupabaseClient(accessToken?: string) {
     }
   });
 }
-

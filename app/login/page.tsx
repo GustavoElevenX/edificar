@@ -6,7 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/components/AuthProvider";
 import { getFriendlyAuthError } from "@/lib/auth/messages";
-import { getAuthConfigError, supabase } from "@/lib/supabase/client";
+import { getAuthConfigError, getSupabaseClient } from "@/lib/supabase/client";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -37,6 +37,7 @@ export default function LoginPage() {
     }
 
     try {
+      const supabase = getSupabaseClient();
       const { error: signInError } = await supabase.auth.signInWithPassword({
         email,
         password

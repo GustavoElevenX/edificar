@@ -2,7 +2,7 @@
 
 import type { Session, User } from "@supabase/supabase-js";
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
-import { supabase } from "@/lib/supabase/client";
+import { getAuthConfigError, getSupabaseClient } from "@/lib/supabase/client";
 
 type AuthContextValue = {
   session: Session | null;
@@ -19,6 +19,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     let active = true;
+    const configError = getAuthConfigError();
+
+    if (configError) {
+      setLoading(false);
+      return () => {
+        active = false;
+      };
+    }
+
+    const supabase = getSupabaseClient();
 
     supabase.auth.getSession().then(({ data }) => {
       if (!active) return;
@@ -45,6 +55,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       user: session?.user ?? null,
       loading,
       signOut: async () => {
+        const supabase = getSupabaseClient();
         await supabase.auth.signOut();
       }
     }),
@@ -63,4 +74,3 @@ export function useAuth() {
 
   return context;
 }
-

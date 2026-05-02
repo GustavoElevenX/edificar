@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { getFriendlyAuthError } from "@/lib/auth/messages";
-import { getAuthConfigError, supabase } from "@/lib/supabase/client";
+import { getAuthConfigError, getSupabaseClient } from "@/lib/supabase/client";
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -28,6 +28,7 @@ export default function RegisterPage() {
     }
 
     try {
+      const supabase = getSupabaseClient();
       const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
