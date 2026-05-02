@@ -1,0 +1,29 @@
+{
+  "name": "edificar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.75.0",
+    "lucide-react": "0.468.0",
+    "next": "^13.5.11",
+    "openai": "^6.35.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/prop-types": "^15.7.15",
+    "@types/react": "18.2.67",
+    "@types/react-dom": "18.2.22",
+    "@types/scheduler": "^0.26.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "^13.5.11",
+    "typescript": "5.4.5"
+  }
+}
