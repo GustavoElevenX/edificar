@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Edificar",
   description:
-    "Uma plataforma cristã para empresários pausarem, orarem e voltarem o coração para Deus."
+    "Uma plataforma cristã para empresários e profissionais pausarem, orarem e voltarem o coração para Deus."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -21,4 +21,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-

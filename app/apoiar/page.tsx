@@ -71,8 +71,9 @@ function SupportContent() {
             <h1>Ajude a manter o Edificar gratuito</h1>
           </div>
           <p>
-            O Edificar nasceu para ajudar empresários a se aproximarem de Deus
-            todos os dias. Sua contribuição ajuda a manter e expandir a missão.
+            O Edificar nasceu para ajudar empresários e profissionais a se
+            aproximarem de Deus todos os dias. Sua contribuição ajuda a manter e
+            expandir a missão.
           </p>
         </div>
 

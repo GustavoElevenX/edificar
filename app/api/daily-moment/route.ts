@@ -5,7 +5,7 @@ export async function POST() {
   try {
     const result = await generateMomentWithAI({
       mode: "daily",
-      selectedTheme: "Palavra de hoje para empresário cristão"
+      selectedTheme: "Palavra de hoje para empresários e profissionais cristãos"
     });
 
     return NextResponse.json({ result });

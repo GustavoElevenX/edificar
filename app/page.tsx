@@ -37,9 +37,9 @@ function PublicHome() {
             <Image src="/edificar-logo.png" width={58} height={58} alt="" priority />
             <span>Edificar</span>
           </div>
-          <h1>Empreender exige muito. Não caminhe longe de Deus.</h1>
+          <h1>Empreender e trabalhar exigem muito. Não caminhe longe de Deus.</h1>
           <p className="lead">
-            Um espaço cristão para empresários pausarem, orarem, refletirem e
+            Um espaço cristão para empresários e profissionais pausarem, orarem, refletirem e
             lembrarem que nenhuma conquista vale uma vida distante de Deus, da
             família, da gratidão e do propósito.
           </p>
@@ -72,7 +72,7 @@ function PublicHome() {
           <article className="card">
             <BookOpen size={22} />
             <h3>Palavra e reflexão</h3>
-            <p>Conteúdos cristãos conectados à rotina de quem lidera e empreende.</p>
+            <p>Conteúdos cristãos conectados à rotina de empresários e profissionais.</p>
           </article>
           <article className="card">
             <HeartHandshake size={22} />
@@ -105,8 +105,8 @@ function PublicHome() {
             <p className="eyebrow">Missão gratuita</p>
             <h2>Sem plano obrigatório, sem promessa financeira, sem paywall espiritual.</h2>
             <p className="lead">
-              O Edificar é gratuito. A missão é ajudar empresários a caminharem
-              com mais Deus, família, paz, sabedoria e caráter.
+              O Edificar é gratuito. A missão é ajudar empresários e profissionais
+              a caminharem com mais Deus, família, paz, sabedoria e caráter.
             </p>
           </div>
           <div className="actions">

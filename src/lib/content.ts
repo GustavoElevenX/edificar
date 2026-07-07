@@ -206,7 +206,7 @@ const bases: ThemeBase[] = [
     introduction:
       "Talvez a rotina tenha feito você olhar primeiro para o próximo problema. Este momento é um convite simples: antes de pedir mais, reconhecer o que Deus já sustentou.",
     reflection:
-      "Empreender pode acostumar o coração a viver no futuro: a próxima meta, a próxima conta, a próxima decisão. Mas aquilo que hoje parece comum talvez tenha sido motivo de oração no passado. A gratidão não ignora responsabilidades; ela recoloca Deus acima da pressa.",
+      "Empreender ou viver uma rotina profissional intensa pode acostumar o coração a viver no futuro: a próxima meta, a próxima conta, a próxima decisão. Mas aquilo que hoje parece comum talvez tenha sido motivo de oração no passado. A gratidão não ignora responsabilidades; ela recoloca Deus acima da pressa.",
     prayer:
       "Senhor, abre meus olhos para reconhecer Tua bondade neste dia. Perdoa-me quando vivo apenas pedindo e quase não agradeço. Ensina-me a caminhar com contentamento, humildade e um coração atento ao que Tu já fizeste. Amém.",
     question: "O que você tem hoje que um dia pediu a Deus?",
@@ -258,7 +258,7 @@ const bases: ThemeBase[] = [
     introduction:
       "Nem toda decisão precisa nascer da pressa. Este momento te convida a buscar sabedoria antes de buscar controle.",
     reflection:
-      "A vida de quem lidera é cheia de escolhas. Algumas exigem coragem; outras exigem paciência. Buscar sabedoria não é paralisar, mas reconhecer que você não precisa decidir tudo sozinho. Ore, avalie com responsabilidade e converse com pessoas maduras antes de movimentos definitivos.",
+      "A vida de empresários, profissionais e de quem lidera é cheia de escolhas. Algumas exigem coragem; outras exigem paciência. Buscar sabedoria não é paralisar, mas reconhecer que você não precisa decidir tudo sozinho. Ore, avalie com responsabilidade e converse com pessoas maduras antes de movimentos definitivos.",
     prayer:
       "Senhor, guia meu coração. Livra-me de decidir por medo, orgulho ou vaidade. Dá-me sabedoria, conselhos corretos e serenidade para fazer o que é justo diante de Ti. Amém.",
     question: "Está decisão nasce de sabedoria ou de ansiedade?",

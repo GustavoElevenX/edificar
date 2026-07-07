@@ -1,6 +1,6 @@
 ﻿# Edificar
 
-Plataforma web cristã para empresários pausarem, orarem, refletirem e voltarem o coração para Deus.
+Plataforma web cristã para empresários e profissionais pausarem, orarem, refletirem e voltarem o coração para Deus.
 
 ## Rodar localmente
 
